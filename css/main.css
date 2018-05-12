@@ -1,0 +1,185 @@
+*{
+	padding: 0;
+	margin: 0;
+	transition: all .3s;
+}
+ul{
+	margin-bottom: 0 !important;
+}
+html{
+	font-size: 16px;
+}
+a:hover{
+	text-decoration: none;
+	color: #737172;
+}
+a{
+	color: #292325;
+}
+div[class^='col-']{
+  padding-right: 0;
+  padding-left: 0; 
+}
+.d-btn{
+	outline: none;
+	border: none;
+	background-color: #fff;
+	font-weight: 600;
+	padding: .5rem 2rem;
+	cursor: pointer;
+}
+.main-title{
+	position: relative;
+	display: inline-block;
+}
+.main-title:before{
+	content: '';
+    position: absolute;
+    top: -117%;
+    text-transform: none;
+    font-size: 2rem;
+    width: 100%;
+    left: 0;
+    border-bottom: 1px solid;
+    color: #333;
+    font-family: 'Great Vibes', cursive;
+}
+.main-menu{
+	border-bottom: 2px solid #292325;
+	line-height: 3.9;
+}
+.wrap-name .name{
+	line-height: 3;
+	font-weight: 400; 
+}
+.wrap-three-header-img .three-header-img-item:not(:nth-child(2)){
+    background-size: cover;
+}
+.wrap-three-header-img .three-header-img-item{
+	min-height: 30rem;
+    height: auto;
+}
+.wrap-three-header-img .three-header-img-item:nth-child(1){
+	background: url(../img/cake05.jpg) no-repeat center center;
+}
+.wrap-three-header-img .three-header-img-item:nth-child(3){
+	background: url(../img/cake04.jpg) no-repeat center center;
+}
+.wrap-three-header-img .three-header-img-item:nth-child(2){
+	background-color: #f7e9e4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.wrap-three-header-img .three-header-img-item:nth-child(2) h1{
+	margin-bottom: 3rem;
+}
+.wrap-three-header-img .three-header-img-item:nth-child(2) #order-here{
+	padding: .5rem 2rem;
+}
+#gallery .wrap-gallery .wrap-gallery-item{
+	width: 25%;
+}
+#gallery{
+	position: relative;
+}
+#gallery .wrap-gallery .wrap-gallery-item .content-gallery-item{
+	height: auto;
+	min-height: 20rem;
+}
+#gallery .wrap-gallery .wrap-gallery-item:nth-child(1){
+	background: url('../img/donut01.jpg') no-repeat center center;
+}
+#gallery .wrap-gallery .wrap-gallery-item:nth-child(2){
+	background: url('../img/cake04.jpg') no-repeat center center;
+}
+#gallery .wrap-gallery .wrap-gallery-item:nth-child(3){
+	background: url('../img/dessert02.jpg') no-repeat center center;
+}
+#gallery .wrap-gallery .wrap-gallery-item:nth-child(4){
+	background: url('../img/ice-cream08.jpg') no-repeat center center;
+}
+#gallery .title-gallery{
+	position: absolute;
+	top: 35%;
+	left: 42%;
+	background-color: #fff;
+	padding: 1rem 4em;
+}
+#gallery .title-gallery .gallery-title{
+	margin-top: 3rem;
+}
+
+#gallery .title-gallery .gallery-title:before{
+	content: 'Food';
+}
+#content{
+	padding: 1rem;
+}
+#content .title-content{
+	padding: 2rem 0;
+    background-color: #ebebf2;
+}
+.look-content .look-about, .look-blog{
+	background-size: cover;
+	height: auto;
+	min-height: 20rem;
+	padding: 2rem;
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.look-content .wrap-look-about{
+	padding: 1rem 1rem 1rem 0;
+}
+.look-content .wrap-look-blog{
+	padding: 1rem 0 1rem 0;
+}
+.look-content .wrap-look-about .look-about{
+	background: url('../img/some.jpg') no-repeat center center;
+	background-size: cover;
+}
+.look-content .wrap-look-blog .look-blog{
+	background: url('../img/dessert03.jpg') no-repeat center center;
+	background-size: cover;
+}
+#services{
+	background-color: #fff;
+    padding: 5rem 0;
+}
+#services .title-services{
+	padding: 2rem 0;
+}
+#services .title-services .services-title:before{
+	content: 'Main';
+}
+#services .services-content .services-item .services-element:not(:last-child){
+	margin-bottom: 1.5rem;
+}
+#services .services-content .services-item .services-item-img{
+	height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    box-shadow: -1px 0px 0px 8px rgb(247, 233, 228);
+}
+#services .services-content .services-item .services-img01{
+	background: url('../img/ice-cream06.jpg') no-repeat center center;
+	background-size: cover;
+}
+#services .services-content .services-item .services-img02{
+	background: url('../img/cake06.jpg') no-repeat center center;
+	background-size: cover;
+}
+#services .services-content .services-item .services-img03{
+	background: url('../img/donut06.jpg') no-repeat center center;
+	background-size: cover;
+}
+#services .services-content .services-item p{
+	color: #615d5d;
+}
+#footer{
+	background-color: #f7e9e4;
+	min-height: 5rem;
+}

@@ -1,0 +1,121 @@
+.ma-center{
+	margin-left: auto;
+    margin-right: auto;
+}
+#order .wrap-content-order .title-order{
+	position: relative;
+	margin-bottom: 3rem; 
+}
+
+#order .wrap-content-order .title-order:after{
+	position: absolute;
+	content: '';
+	bottom: -13px;
+    left: 30%;
+    width: 3rem;
+	height: .1rem;
+	background-color: #333;
+}
+#order .wrap-cakes-order{
+	margin: 4rem 0;
+}
+#order .wrap-content-order .content-order{
+	display: flex;
+	justify-content: space-between;
+}
+#order .wrap-content-order .content-order .content-order-img{
+	background-size: cover;
+	border-radius: 50%;
+	height: 14rem;
+	width: 14rem;
+	margin-bottom: 2rem;
+}
+#order .wrap-content-order .content-order .img-cake01{
+	background: url('../img/cake01.jpeg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-content-order .content-order .img-cake02{
+	background: url('../img/cake02.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-content-order .content-order .img-cake03{
+	background: url('../img/cake03.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-content-order .content-order .img-cake04{
+	background: url('../img/cake01.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-content-order .content-order .img-cake05{
+	background: url('../img/cake05.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-content-order .content-order .img-cake06{
+	background: url('../img/cake06.jpg') no-repeat center center;
+	background-size: cover; 
+}
+
+#order .wrap-donuts-order .wrap-content-order .content-order .content-order-item .img-donut01{
+	background: url('../img/donut01.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-donuts-order .wrap-content-order .content-order .content-order-item .img-donut02{
+	background: url('../img/donut02.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-donuts-order .wrap-content-order .content-order .content-order-item .img-donut03{
+	background: url('../img/donut03.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-donuts-order .wrap-content-order .content-order .content-order-item .img-donut04{
+	background: url('../img/donut04.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-donuts-order .wrap-content-order .content-order .content-order-item .img-donut05{
+	background: url('../img/donut05.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-donuts-order .wrap-content-order .content-order .content-order-item .img-donut06{
+	background: url('../img/donut06.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-ice-order .wrap-content-order .content-order .content-order-item .img-ice01{
+	background: url('../img/ice-cream01.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-ice-order .wrap-content-order .content-order .content-order-item .img-ice02{
+	background: url('../img/ice-cream08.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-ice-order .wrap-content-order .content-order .content-order-item .img-ice03{
+	background: url('../img/ice-cream09.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-ice-order .wrap-content-order .content-order .content-order-item .img-ice04{
+	background: url('../img/ice-cream05.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-ice-order .wrap-content-order .content-order .content-order-item .img-ice05{
+	background: url('../img/ice-cream10.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-ice-order .wrap-content-order .content-order .content-order-item .img-ice06{
+	background: url('../img/ice-cream06.jpg') no-repeat center center;
+	background-size: cover; 
+}
+#order .wrap-content-order .content-order .content-order-title{
+	position: relative;
+	margin-bottom: 2rem;
+}
+#order .wrap-content-order .content-order .content-order-title:after{
+	position: absolute;
+	content: '';
+	bottom: -9px;
+	left: 0;
+	width: 100%;
+	height: .1rem;
+	background-color: #333;
+}
+#order .wrap-content-order .content-order .content-order-price{
+	font-size: 1.1rem;
+}

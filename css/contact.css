@@ -1,0 +1,81 @@
+button{
+	cursor: pointer;
+}
+.ma-center{
+	margin-left: auto;
+    margin-right: auto;
+}
+#contact-me .title-contact{
+	position: relative;
+}
+#contact-me{
+	padding: 2rem;
+	background-color: #f7e9e4;
+}
+#contact-me .title-contact{
+	margin-bottom: 4rem;
+}
+#contact-me .title-contact:after{
+	position: absolute;
+	content: '';
+	width: 3rem;
+	height: .1rem;
+	left: 48%;
+	transform: translateY(1rem);
+	background-color: #333;
+}
+#contact-me .contact-info .vert-line{
+	border-left: 2px solid black;
+	margin: 0 1rem 0 1rem;
+}
+#contact-me .contact-info p:nth-child(1){
+	font-weight: 500;
+}
+#contact-me .contact-form #form-contact{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	    padding: 3rem 0;
+}
+#contact-me .contact-form #form-contact .input-field{
+	position: relative;
+	margin-bottom: 2rem;
+
+}
+#contact-me .contact-form #form-contact .input-field:not(.field-textarea){
+	height: 3rem;
+}
+
+#contact-me .contact-form #form-contact .input-field .contact-control{
+	background-color: transparent;
+	border-left: none;
+    outline: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+	height: 100%;
+}
+#contact-me .contact-form #form-contact .input-field .contact-control:valid + label{
+	top: -23px;
+	opacity: 0.4;
+}
+#contact-me .contact-form #form-contact .input-field .contact-control:focus{
+	border-bottom: 2px solid black;
+}
+#contact-me .contact-form #form-contact .input-field:not(.field-textarea){
+	width: 47%;
+}
+#contact-me .contact-form #form-contact .field-textarea{
+	width: 100%;
+}
+#contact-me .contact-form #form-contact .input-field label{
+	position: absolute;
+	top: 11px;
+	left: 0;
+	transition: all .3s ease-in-out;
+}
+#contact-me .contact-form #form-contact .input-field .btn-contact{
+	font-weight: 600;
+}
